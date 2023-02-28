@@ -1,0 +1,27 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: darkgray;
+}
+.container{
+  width: 29%;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 35%;
+}
+.button, #equal{
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 10px light-gray;
+}
+#input{
+  background-color: gray;
+  margin: 20px 20px 40px 20px;
+  width: 82%;
+ padding: 25px 10px;
+  font-size: 25px;
+} 
